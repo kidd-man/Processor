@@ -20,7 +20,7 @@ applicable agreement for further details.
 */
 (header "symbol" (version "1.2"))
 (symbol
-	(rect 16 16 208 112)
+	(rect 16 16 216 112)
 	(text "16mux" (rect 5 0 45 13)(font "Arial" (font_size 8)))
 	(text "inst" (rect 8 81 26 92)(font "Arial" ))
 	(port
@@ -45,13 +45,13 @@ applicable agreement for further details.
 		(line (pt 0 64)(pt 16 64)(line_width 3))
 	)
 	(port
-		(pt 192 32)
+		(pt 200 32)
 		(output)
-		(text "pin_name1" (rect 0 0 63 13)(font "Arial" (font_size 8)))
-		(text "pin_name1" (rect 108 27 171 40)(font "Arial" (font_size 8)))
-		(line (pt 192 32)(pt 176 32))
+		(text "output[15..0]" (rect 0 0 71 13)(font "Arial" (font_size 8)))
+		(text "output[15..0]" (rect 108 27 179 40)(font "Arial" (font_size 8)))
+		(line (pt 200 32)(pt 184 32)(line_width 3))
 	)
 	(drawing
-		(rectangle (rect 16 16 176 80))
+		(rectangle (rect 16 16 184 80))
 	)
 )

@@ -39,7 +39,7 @@ applicable agreement for further details.
 	(input)
 	(rect 136 432 304 448)
 	(text "INPUT" (rect 125 0 154 10)(font "Arial" (font_size 6)))
-	(text "input_1[15..0]" (rect 5 0 73 11)(font "Arial" ))
+	(text "input_1[15..0]" (rect 5 0 72 11)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -55,7 +55,7 @@ applicable agreement for further details.
 	(input)
 	(rect 128 240 296 256)
 	(text "INPUT" (rect 125 0 154 10)(font "Arial" (font_size 6)))
-	(text "checker" (rect 5 0 46 11)(font "Arial" ))
+	(text "checker" (rect 5 0 45 11)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -69,9 +69,9 @@ applicable agreement for further details.
 )
 (pin
 	(output)
-	(rect 1128 360 1304 376)
+	(rect 1240 360 1416 376)
 	(text "OUTPUT" (rect 1 0 41 10)(font "Arial" (font_size 6)))
-	(text "pin_name1" (rect 90 0 146 11)(font "Arial" ))
+	(text "output[15..0]" (rect 90 0 151 11)(font "Arial" ))
 	(pt 0 8)
 	(drawing
 		(line (pt 0 8)(pt 52 8))
@@ -274,7 +274,8 @@ applicable agreement for further details.
 	(bus)
 )
 (connector
-	(pt 1128 368)
 	(pt 1112 368)
+	(pt 1240 368)
+	(bus)
 )
 (junction (pt 736 248))
